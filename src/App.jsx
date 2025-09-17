@@ -1,13 +1,21 @@
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Write from "./pages/Write";
+import Detail from "./pages/Detail";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <>
-      <div className="flex justify-between items-center">
-        <div className="bg-red-200 p-4 rounded-xl">Tailwind CSS</div>
-        <div className="bg-red-200 p-4 rounded-r-xl">Tailwind CSS</div>
+    <BrowserRouter>
+      <div className="App">
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/write" element={<Write />} />
+          <Route path="/diary/:id" element={<Detail />} />
+        </Routes>
       </div>
-    </>
+    </BrowserRouter>
   );
 }
 
