@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Write from "./pages/Write";
 import Detail from "./pages/Detail";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/diary/:id" element={<Detail />} />
         </Routes>
       </div>
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -9,16 +9,16 @@ function Home() {
         <h1 className="text-3xl md:text-5xl font-extrabold text-yellow-400">
           케이핏 소개
         </h1>
-        <p className="text-xl md:text-2xl text-black pt-8 font-bold">
+        <p className="text-xl md:text-2xl text-gray-700 pt-8 font-bold">
           100% 사전예약제
         </p>
-        <p className="text-xl md:text-2xl text-black pt-4 font-bold">
+        <p className="text-xl md:text-2xl text-gray-700 pt-4 font-bold">
           재활 트레이닝 전문
         </p>
-        <p className="text-xl md:text-2xl text-black pt-4 font-bold">
+        <p className="text-xl md:text-2xl text-gray-700 pt-4 font-bold">
           1:1 PT & 1:1 PILATES
         </p>
-        <p className="text-xl md:text-2xl text-black pt-4 font-bold">
+        <p className="text-xl md:text-2xl text-gray-700 pt-4 font-bold">
           "건강한 변화의 시작 케이핏"
         </p>
       </div>
