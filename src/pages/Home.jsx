@@ -18,7 +18,7 @@ function Home() {
         <p className="text-md md:text-2xl text-gray-700 pt-4 font-bold">
           1:1 PT & 1:1 PILATES
         </p>
-        <p className="text-md md:text-2xl text-gray-700 pt-4 font-bold">
+        <p className="text-md md:text-2xl text-gray-700 pt-4 font-bold text-yellow-400">
           "건강한 변화의 시작 케이핏"
         </p>
       </div>
