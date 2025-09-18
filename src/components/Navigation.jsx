@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
-    <nav className="bg-black md:px-100 py-2 flex flex-col md:flex-row justify-between items-center text-lg font-bold gap-4 fixed top-0 left-0 w-full z-50 shadow-md">
+    <nav className="bg-black py-2 flex flex-col md:flex-col lg:flex-row justify-center items-center text-lg font-bold gap-4 fixed top-0 left-0 w-full z-50 shadow-md">
       {/* 로고 클릭 시 홈으로 이동 */}
-      <Link to="/" className="shrink-0">
+      <Link to="/" className="shrink-0 lg:mr-24">
         <img
           src="imgs/kfit.jpg"
           alt="logo"
@@ -13,7 +13,7 @@ function Navigation() {
       </Link>
 
       {/* 오른쪽 메뉴 */}
-      <div className="flex flex-col md:flex-row gap-4 md:gap-8">
+      <div className="flex flex-col md:flex-col lg:flex-row gap-4 md:gap-8">
         <Link to="/write">
           <button
             className="bg-black px-2 py-2 text-yellow-400 text-xl font-bold rounded-xl 

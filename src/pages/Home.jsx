@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="pt-84 md:pt-20">
+    <div className="pt-84 lg:pt-20">
       {/* 메인 이미지 */}
       <img src="imgs/202301_visual3.jpg" alt="홈 사진" className="" />
 
